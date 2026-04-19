@@ -1,0 +1,153 @@
+{
+    "version": "0.1.0",
+    "snippets": {
+        "how_save": {
+            "desc": "Save text to a file / 將文字存入檔案",
+            "cpp": "std::ofstream file(\"out.txt\"); file << data;",
+            "python": "with open('out.txt', 'w') as f: f.write(data)",
+            "rust": "std::fs::write(\"out.txt\", data)?;"
+        },
+        "how_read": {
+            "desc": "Read content from a file / 從檔案讀取內容",
+            "cpp": "std::ifstream file(\"in.txt\"); std::string str((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());",
+            "python": "data = open('in.txt').read()",
+            "rust": "let data = std::fs::read_to_string(\"in.txt\")?;"
+        },
+        "how_print": {
+            "desc": "Quick added snippet for how_print",
+            "cpp": "std::cout << x;",
+            "python": "print(x)",
+            "rust": "println!(\"{}\", x);"
+        },
+        "print": {
+            "desc": "Added via batch import",
+            "cpp": "std::cout << x << std::endl;",
+            "py": "print(x)",
+            "js": "console.log(x);",
+            "java": "System.out.println(x);",
+            "php": "echo $x;",
+            "go": "fmt.Println(x)",
+            "sql": "SELECT x;",
+            "asm": "mov eax, 4 \\n int 0x80",
+            "html": "<p>Hello World</p>",
+            "css": "content: \"text\";",
+            "json": "{\"message\": \"hello\"}"
+        },
+        "input": {
+            "desc": "Added via batch import",
+            "cpp": "std::cin >> x;",
+            "py": "x = input()",
+            "js": "const x = prompt();",
+            "java": "scanner.nextLine();",
+            "php": "readline();",
+            "go": "fmt.Scan(&x)"
+        },
+        "if": {
+            "desc": "Added via batch import",
+            "cpp": "if (x > 0) { }",
+            "py": "if x > 0:",
+            "js": "if (x > 0) { }",
+            "java": "if (x > 0) { }",
+            "go": "if x > 0 { }",
+            "php": "if ($x > 0) { }"
+        },
+        "for": {
+            "desc": "Added via batch import",
+            "cpp": "for(int i=0; i<n; i++) { }",
+            "py": "for i in range(n):",
+            "js": "for(let i=0; i<n; i++) { }",
+            "java": "for(int i=0; i<n; i++) { }",
+            "go": "for i := 0; i < n; i++ { }"
+        },
+        "func": {
+            "desc": "Added via batch import",
+            "cpp": "void func() { }",
+            "py": "def func():",
+            "js": "function func() { }",
+            "java": "public void func() { }",
+            "go": "func name() { }",
+            "php": "function name() { }"
+        },
+        "list_add": {
+            "desc": "Added via batch import",
+            "cpp": "v.push_back(x);",
+            "py": "l.append(x)",
+            "js": "a.push(x);",
+            "java": "l.add(x);",
+            "go": "a = append(a, x)"
+        },
+        "to_int": {
+            "desc": "Added via batch import",
+            "cpp": "std::stoi(s)",
+            "py": "int(s)",
+            "js": "parseInt(s)",
+            "java": "Integer.parseInt(s)",
+            "go": "strconv.Atoi(s)"
+        },
+        "to_str": {
+            "desc": "Added via batch import",
+            "cpp": "std::to_string(x)",
+            "py": "str(x)",
+            "js": "String(x)",
+            "java": "String.valueOf(x)",
+            "go": "strconv.Itoa(x)"
+        },
+        "len": {
+            "desc": "Added via batch import",
+            "cpp": "v.size()",
+            "py": "len(x)",
+            "js": "x.length",
+            "java": "x.length()",
+            "go": "len(x)",
+            "sql": "LENGTH(x)"
+        },
+        "random": {
+            "desc": "Added via batch import",
+            "cpp": "rand() % n",
+            "py": "random.randint(0, n)",
+            "js": "Math.random()",
+            "java": "Math.random()",
+            "go": "rand.Intn(n)"
+        },
+        "time": {
+            "desc": "Added via batch import",
+            "cpp": "time(0)",
+            "py": "time.time()",
+            "js": "Date.now()",
+            "java": "System.currentTimeMillis()",
+            "php": "time()"
+        },
+        "exit": {
+            "desc": "Added via batch import",
+            "cpp": "exit(0);",
+            "py": "exit()",
+            "js": "process.exit()",
+            "java": "System.exit(0);",
+            "go": "os.Exit(0)"
+        },
+        "comment": {
+            "desc": "Added via batch import",
+            "cpp": "// comment",
+            "py": "# comment",
+            "js": "// comment",
+            "sql": "-- comment",
+            "html": "comment | css | /* comment */"
+        },
+        "math_sqrt": {
+            "desc": "Added via batch import",
+            "cpp": "sqrt(x)",
+            "py": "math.sqrt(x)",
+            "js": "Math.sqrt(x)",
+            "java": "Math.sqrt(x)",
+            "go": "math.Sqrt(x)"
+        },
+        "file_open": {
+            "desc": "Added via batch import",
+            "cpp": "std::ifstream f(\"t.txt\");",
+            "py": "open('t.txt', 'r')",
+            "js": "fs.readFile('t.txt', ...)",
+            "java": "new File(\"t.txt\");",
+            "go": "os.Open(\"t.txt\")"
+        }
+    }
+}
