@@ -6,7 +6,7 @@
 
 ## English
 
-CodeToolBox is an automated, multi-language code snippet management system designed for developers who work across various programming environments. It serves as a core development assistant for **TheAnyOmni (TAO)** social software project.
+CodeToolBox is an automated, multi-language code snippet management system designed for developers who work across various programming environments.** social software project.
 
 ### ✨ Key Features
 - **Multi-Engine Support**: Built with a C++ query core and a Go-based interactive manager.
@@ -24,7 +24,7 @@ CodeToolBox is an automated, multi-language code snippet management system desig
 
 ## 中文說明
 
-CodeToolBox (CTB) 是一個全自動的跨語言代碼片段管理系統，專為需要在多種編程環境間切換的開發者設計。本專案同時作為 **TheAnyOmni (TAO)** 社交軟體專案的核心開發助手。
+CodeToolBox (CTB) 是一個全自動的跨語言代碼片段管理系統，專為需要在多種編程環境間切換的開發者設計。
 
 ### ✨ 核心特性
 - **多引擎支持**: 結合 C++ 高效查詢核心與 Go 語言交互式管理器。
